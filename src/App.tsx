@@ -1,11 +1,12 @@
 //import { useState } from 'react'
 import './App.css'
+import WelcomeMessage from './components/WelcomeMessage'
 
 function App() {
 
   return (
     <>
-    
+    <WelcomeMessage />
     </>
   )
 }
