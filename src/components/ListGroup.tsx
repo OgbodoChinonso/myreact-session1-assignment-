@@ -1,6 +1,6 @@
 function ListGroup(){
 
-  const list = [
+  let list = [
     {
       item: 'What is React',
        id: 0
@@ -23,9 +23,13 @@ function ListGroup(){
   }
   ];
 
+  // list = [];
+
   return(
     <>
+    {list.length === 0 ? 'No topic available' : null}
      <ul className = 'listItems'>
+
       {
       list.map(items => (<li key = {items.id}>
       <li>{items.item}</li>
