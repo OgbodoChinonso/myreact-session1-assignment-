@@ -1,7 +1,8 @@
 //import { useState } from 'react'
 import './App.css'
 import WelcomeMessage from './components/WelcomeMessage';
-import AboutReact from './components/AboutReact'
+import AboutReact from './components/AboutReact';
+import ListGroup from './components/ListGroup';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
     <WelcomeMessage />
     <AboutReact />
+    <ListGroup />
     </>
   )
 }
