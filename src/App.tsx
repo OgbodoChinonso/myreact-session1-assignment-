@@ -3,6 +3,7 @@ import './App.css'
 import WelcomeMessage from './components/WelcomeMessage';
 import AboutReact from './components/AboutReact';
 import ListGroup from './components/ListGroup';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <WelcomeMessage />
     <AboutReact />
     <ListGroup />
+    <Footer />
     </>
   )
 }
